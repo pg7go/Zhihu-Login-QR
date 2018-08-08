@@ -1,18 +1,15 @@
 import json
-
 import requests
 try:
     import cookielib
 except:
     import http.cookiejar as cookielib
-import re
 import os.path
 try:
     from PIL import Image
 except:
     pass
 
-from bs4 import BeautifulSoup
 
 # 使用登录cookie信息
 session = requests.session()
