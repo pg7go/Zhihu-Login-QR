@@ -5,8 +5,12 @@
 需要requests库和Pillow库(可以不要，用于修改和显示二维码图片)
 
 ## 使用
-引入：import zhihu_login  
+引入：
+
+    import zhihu_login  
   
-调用：zhihu_login.login()  
+调用：
+
+    zhihu_login.login()  
   
 成功会返回 True
